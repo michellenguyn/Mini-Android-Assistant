@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MiniAssistant</string>
+<!--    <string name="prompt_1">-->
+<!--        Retrieved context:\n-->
+<!--        $CONTEXT \n-->
+<!--        User: $QUERY-->
+<!--    </string>-->
+    <string name="states">
+        Here is the conversation history \n
+        $HISTORY
+        \n--------------------------------------------------
+    </string>
+    <string name="query">
+        User: $QUERY\n
+        --------------------------------------------------
+    </string>
+    <string name="tools">
+        Tools:\n
+        $TOOL_OUTPUT
+    </string>
+</resources>

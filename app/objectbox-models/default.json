@@ -1,0 +1,119 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:3804764103528880019",
+      "lastPropertyId": "5:5191499561081934197",
+      "name": "Chunk",
+      "properties": [
+        {
+          "id": "1:817592972438246372",
+          "name": "chunkId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8875650127280982997",
+          "name": "docId",
+          "indexId": "1:1453778076915682967",
+          "type": 6,
+          "flags": 8
+        },
+        {
+          "id": "3:3186659360156265475",
+          "name": "docFileName",
+          "type": 9
+        },
+        {
+          "id": "4:4987363799653809952",
+          "name": "chunkData",
+          "type": 9
+        },
+        {
+          "id": "5:5191499561081934197",
+          "name": "chunkEmbedding",
+          "indexId": "2:6777284615708424130",
+          "type": 28,
+          "flags": 8
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:2615463962968188186",
+      "lastPropertyId": "4:7369054509069546708",
+      "name": "Document",
+      "properties": [
+        {
+          "id": "1:3700481467520864939",
+          "name": "docId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8066724314974713619",
+          "name": "docText",
+          "type": 9
+        },
+        {
+          "id": "3:9037685551460113832",
+          "name": "docFileName",
+          "type": 9
+        },
+        {
+          "id": "4:7369054509069546708",
+          "name": "docAddedTime",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:7824360481265897854",
+      "lastPropertyId": "5:127227740581168561",
+      "name": "ChatMemory",
+      "properties": [
+        {
+          "id": "1:6452028885419925589",
+          "name": "memoryId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:688384177786029207",
+          "name": "prompt",
+          "type": 9
+        },
+        {
+          "id": "3:4260380998613181562",
+          "name": "response",
+          "type": 9
+        },
+        {
+          "id": "4:7427911227695916996",
+          "name": "ts",
+          "type": 6
+        },
+        {
+          "id": "5:127227740581168561",
+          "name": "tool",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:7824360481265897854",
+  "lastIndexId": "2:6777284615708424130",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
